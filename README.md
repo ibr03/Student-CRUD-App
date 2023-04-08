@@ -13,4 +13,4 @@ npm start
 # Visit http://localhost:3000
 ```
 ### MongoDB
-Open "config.env" and add your MongoDB URI, local or Atlas
+Add "config.env" and add your MongoDB URI, local or Atlas
