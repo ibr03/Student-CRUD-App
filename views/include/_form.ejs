@@ -1,0 +1,51 @@
+<!-- form handling-->
+<form action="/api/users" method="POST" id="add_user">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body">
+            <div class="form-group">
+                <label for="name"><strong>Name</strong></label>
+                <input type="hidden" name="id" value="">
+                <input type="text" name="name" value="" placeholder="John Doe" class="form-control mt-2 mb-2">
+            </div>
+            <div class="form-group">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" value="" placeholder="abc@gmail.com" class="form-control mt-2 mb-2">
+            </div>
+
+            <div class="form-group">
+                <label for="gender"><strong>Gender</strong></label>
+                <div class="radio inline mt-2">
+                    <input type="radio" id="radio-2" name="gender" value="Male">
+                    <label for="radio-2">Male</label>
+                </div>
+                <div class="radio inline mt-2">
+                    <input type="radio" id="radio-3" name="gender" value="Female">
+                    <label for="radio-3">Female</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="status"><strong>Class</strong></label>
+                <select type="select" name="class" value="" placeholder="12" class="form-control mt-2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block form-control mt-3">Save</button>
+            </div>
+        </div>
+    </div>
+</form>
+<!-- /form handling-->
